@@ -209,6 +209,41 @@ export default function GlobalStrategyPage() {
             </div>
           </div>
         </section>
+        {/* Global Hospital Entry Strategy */}
+        <section className="bg-white py-32 px-12">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-center font-extrabold text-4xl md:text-5xl text-[#111] mb-20 tracking-tighter">
+              {t("global.entry_title")}
+            </h2>
+            <p className="text-[#111] text-[17px] md:text-[19px] font-bold leading-relaxed mb-10 text-left" dangerouslySetInnerHTML={{ __html: t("global.entry_desc") }} />
+            
+            <div className="space-y-6">
+              {/* Korea */}
+              <div className="bg-teal-50/70 rounded-xl p-8 shadow-sm">
+                <h4 className="text-2xl font-extrabold text-[#111] mb-4 flex items-center gap-2">{t("global.entry_kr_title")}</h4>
+                <p className="text-[17px] text-[#333] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: t("global.entry_kr_desc") }} />
+              </div>
+              
+              {/* China */}
+              <div className="bg-teal-50/70 rounded-xl p-8 shadow-sm">
+                <h4 className="text-2xl font-extrabold text-[#111] mb-4 flex items-center gap-2">{t("global.entry_cn_title")}</h4>
+                <p className="text-[17px] text-[#333] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: t("global.entry_cn_desc") }} />
+              </div>
+
+              {/* Japan */}
+              <div className="bg-teal-50/70 rounded-xl p-8 shadow-sm">
+                <h4 className="text-2xl font-extrabold text-[#111] mb-4 flex items-center gap-2">{t("global.entry_jp_title")}</h4>
+                <p className="text-[17px] text-[#333] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: t("global.entry_jp_desc") }} />
+              </div>
+
+              {/* UAE */}
+              <div className="bg-teal-50/70 rounded-xl p-8 shadow-sm">
+                <h4 className="text-2xl font-extrabold text-[#111] mb-4 flex items-center gap-2">{t("global.entry_ae_title")}</h4>
+                <p className="text-[17px] text-[#333] font-medium leading-relaxed" dangerouslySetInnerHTML={{ __html: t("global.entry_ae_desc") }} />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}

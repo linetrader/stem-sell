@@ -75,13 +75,13 @@ export default function Page() {
               <p className="text-surface-variant text-xl max-w-3xl">{t("home.core_tech_sub")}</p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="md:col-span-2 bg-surface-container-highest/10 p-10 rounded-xl backdrop-blur-sm border border-white/5">
+            <div className="grid grid-cols-1 gap-12">
+              <div className="bg-surface-container-highest/10 p-10 rounded-xl backdrop-blur-sm border border-white/5 w-full">
                 <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
                   <span className="p-2 bg-primary-container rounded-lg"><span className="material-symbols-outlined text-on-primary-container">science</span></span>
                   {t("home.comparison_title")}
                 </h3>
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="space-y-4">
                     <p className="font-label text-xs uppercase tracking-widest text-surface-variant/60">{t("home.trad_method")}</p>
                     <ul className="space-y-3">
@@ -119,32 +119,50 @@ export default function Page() {
                 </div>
               </div>
               
-              <div className="bg-primary p-10 rounded-xl flex flex-col justify-between">
-                <h3 className="text-2xl font-bold mb-6">{t("home.six_adv")}</h3>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3 group">
-                    <span className="text-primary-container font-headline font-bold text-2xl group-hover:scale-110 transition-transform">01</span>
-                    <span className="text-white font-medium">{t("home.adv_1")}</span>
+              <div className="bg-white p-12 rounded-2xl w-full text-slate-900 shadow-xl border border-slate-100">
+                <h3 className="text-4xl font-extrabold mb-12 tracking-tighter">{t("home.six_adv")}</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="material-symbols-outlined text-teal-500 text-[28px] font-medium" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300" }}>biotech</span>
+                      <h4 className="font-extrabold text-[#111] text-[22px] tracking-tight">{t("home.adv_1")}</h4>
+                    </div>
+                    <p className="text-slate-700 leading-relaxed font-medium text-[15px]" dangerouslySetInnerHTML={{ __html: t("home.adv_desc_1") }} />
                   </div>
-                  <div className="flex items-center gap-3 group">
-                    <span className="text-primary-container font-headline font-bold text-2xl group-hover:scale-110 transition-transform">02</span>
-                    <span className="text-white font-medium">{t("home.adv_2")}</span>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="material-symbols-outlined text-teal-500 text-[28px] font-medium" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300" }}>electric_bolt</span>
+                      <h4 className="font-extrabold text-[#111] text-[22px] tracking-tight">{t("home.adv_2")}</h4>
+                    </div>
+                    <p className="text-slate-700 leading-relaxed font-medium text-[15px]" dangerouslySetInnerHTML={{ __html: t("home.adv_desc_2") }} />
                   </div>
-                  <div className="flex items-center gap-3 group">
-                    <span className="text-primary-container font-headline font-bold text-2xl group-hover:scale-110 transition-transform">03</span>
-                    <span className="text-white font-medium">{t("home.adv_3")}</span>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="material-symbols-outlined text-teal-500 text-[28px] font-medium" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300" }}>language</span>
+                      <h4 className="font-extrabold text-[#111] text-[22px] tracking-tight">{t("home.adv_3")}</h4>
+                    </div>
+                    <p className="text-slate-700 leading-relaxed font-medium text-[15px]" dangerouslySetInnerHTML={{ __html: t("home.adv_desc_3") }} />
                   </div>
-                  <div className="flex items-center gap-3 group">
-                    <span className="text-primary-container font-headline font-bold text-2xl group-hover:scale-110 transition-transform">04</span>
-                    <span className="text-white font-medium">{t("home.adv_4")}</span>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="material-symbols-outlined text-teal-500 text-[28px] font-medium" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300" }}>domain</span>
+                      <h4 className="font-extrabold text-[#111] text-[22px] tracking-tight">{t("home.adv_4")}</h4>
+                    </div>
+                    <p className="text-slate-700 leading-relaxed font-medium text-[15px]" dangerouslySetInnerHTML={{ __html: t("home.adv_desc_4") }} />
                   </div>
-                  <div className="flex items-center gap-3 group">
-                    <span className="text-primary-container font-headline font-bold text-2xl group-hover:scale-110 transition-transform">05</span>
-                    <span className="text-white font-medium">{t("home.adv_5")}</span>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="material-symbols-outlined text-teal-500 text-[28px] font-medium" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300" }}>payments</span>
+                      <h4 className="font-extrabold text-[#111] text-[22px] tracking-tight">{t("home.adv_5")}</h4>
+                    </div>
+                    <p className="text-slate-700 leading-relaxed font-medium text-[15px]" dangerouslySetInnerHTML={{ __html: t("home.adv_desc_5") }} />
                   </div>
-                  <div className="flex items-center gap-3 group">
-                    <span className="text-primary-container font-headline font-bold text-2xl group-hover:scale-110 transition-transform">06</span>
-                    <span className="text-white font-medium">{t("home.adv_6")}</span>
+                  <div className="flex flex-col gap-3">
+                    <div className="flex items-center gap-3">
+                      <span className="material-symbols-outlined text-teal-500 text-[28px] font-medium" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300" }}>verified_user</span>
+                      <h4 className="font-extrabold text-[#111] text-[22px] tracking-tight">{t("home.adv_6")}</h4>
+                    </div>
+                    <p className="text-slate-700 leading-relaxed font-medium text-[15px]" dangerouslySetInnerHTML={{ __html: t("home.adv_desc_6") }} />
                   </div>
                 </div>
               </div>

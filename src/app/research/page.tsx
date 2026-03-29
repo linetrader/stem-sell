@@ -51,8 +51,8 @@ export default function ResearchPage() {
             <h2 className="text-3xl font-headline font-bold tracking-tight text-on-surface">{t("research.tech_title")}</h2>
             <div className="h-1 w-24 bg-primary-container mt-4"></div>
           </div>
-          <div className="overflow-hidden bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/10">
-            <table className="w-full text-left border-collapse">
+          <div className="overflow-x-auto bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/10">
+            <table className="w-full min-w-[640px] md:min-w-full text-left border-collapse">
               <thead>
                 <tr className="bg-surface-container-high">
                   <th className="p-6 font-headline font-bold text-on-surface uppercase tracking-wider text-xs">{t("research.th_1")}</th>
@@ -154,10 +154,10 @@ export default function ResearchPage() {
             </div>
             
             {/* Group 4 */}
-            <div className="md:col-span-4 bg-primary-container text-on-primary-container p-12 rounded-xl flex items-center justify-between overflow-hidden relative">
+            <div className="md:col-span-4 bg-primary-container text-on-primary-container p-8 md:p-12 rounded-xl flex items-center justify-between overflow-hidden relative">
               <div className="z-10 max-w-xl">
-                <h3 className="text-4xl font-headline font-black mb-4">{t("research.onco_t")}</h3>
-                <p className="text-lg opacity-80 leading-relaxed">{t("research.onco_d")}</p>
+                <h3 className="text-3xl md:text-4xl font-headline font-black mb-4">{t("research.onco_t")}</h3>
+                <p className="text-base md:text-lg opacity-80 leading-relaxed">{t("research.onco_d")}</p>
               </div>
               <div className="z-10 hidden lg:block">
                 <button className="bg-on-primary-container text-primary-container px-8 py-4 rounded-xl font-headline font-bold">{t("research.onco_btn")}</button>

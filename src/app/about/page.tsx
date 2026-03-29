@@ -124,21 +124,21 @@ export default function AboutPage() {
               <h2 className="text-5xl font-bold tracking-tighter mb-4">{t("about.guar_title")}</h2>
               <p className="text-on-surface-variant max-w-2xl mx-auto">{t("about.guar_desc")}</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[240px]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:auto-rows-[240px]">
               {/* Bento Card 1: Genetic Analysis */}
-              <div className="md:col-span-2 md:row-span-2 bg-surface-container-low rounded-xl p-10 flex flex-col justify-end relative overflow-hidden group">
+              <div className="md:col-span-2 md:row-span-2 bg-surface-container-low rounded-xl p-8 md:p-10 flex flex-col justify-start md:justify-end relative overflow-hidden group">
                 <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img className="w-full h-full object-cover" alt="Abstract DNA sequence data visualization on a screen with teal digital highlights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTMM0QgTNbJLvYW-_6FINqzP9Gd71amsqDmTIthqWsBaBftGsyvoCHMGUoCqR966g_g_I9-j4ARNMgZ7-h5-r-0sGANhtqwW-cXB-WVqvMBB9O7GUMncDaSmEmRP_UVysqzxpOaxwwAHdWSreR5Cadj8I3g89lgbJDXfRkWCO6_-70a5KRxexI59goBifzcrwDeyDKNC-1sgwvG5w0cJTT6fvfpYHBNeaPKuda_v0ng5HXlyKvc2Gzih316gemBflaKkhtitRvgRuE"/>
                 </div>
-                <span className="material-symbols-outlined text-primary mb-6" style={{ fontSize: '144px' }}>genetics</span>
+                <span className="material-symbols-outlined text-primary mb-6 icon-bento-1">genetics</span>
                 <h3 className="text-3xl font-bold mb-4">{t("about.card1_title")}</h3>
                 <p className="text-on-surface-variant max-w-md">{t("about.card1_desc")}</p>
               </div>
               
               {/* Bento Card 2: Improvement Guarantee */}
-              <div className="bg-primary text-on-primary rounded-xl p-8 flex flex-col justify-between">
-                <span className="material-symbols-outlined mb-6" style={{ fontSize: '90px' }}>verified_user</span>
+              <div className="bg-primary text-on-primary rounded-xl p-8 flex flex-col justify-start gap-4 md:gap-0 md:justify-between">
+                <span className="material-symbols-outlined mb-2 md:mb-6 icon-bento-2">verified_user</span>
                 <div>
                   <h4 className="text-xl font-bold mb-2">{t("about.card2_title")}</h4>
                   <p className="text-on-primary/80 text-sm">{t("about.card2_desc")}</p>
@@ -146,8 +146,8 @@ export default function AboutPage() {
               </div>
               
               {/* Bento Card 3: Refund Policy */}
-              <div className="bg-surface-container-highest rounded-xl p-8 flex flex-col justify-between">
-                <span className="material-symbols-outlined text-primary mb-6" style={{ fontSize: '90px' }}>currency_exchange</span>
+              <div className="bg-surface-container-highest rounded-xl p-8 flex flex-col justify-start gap-4 md:gap-0 md:justify-between">
+                <span className="material-symbols-outlined text-primary mb-2 md:mb-6 icon-bento-2">currency_exchange</span>
                 <div>
                   <h4 className="text-xl font-bold mb-2">{t("about.card3_title")}</h4>
                   <p className="text-on-surface-variant text-sm">{t("about.card3_desc")}</p>
@@ -155,12 +155,12 @@ export default function AboutPage() {
               </div>
               
               {/* Bento Card 4: Monitoring */}
-              <div className="md:col-span-3 bg-teal-900 text-white rounded-xl p-10 flex items-center justify-between overflow-hidden relative">
+              <div className="md:col-span-3 bg-teal-900 text-white rounded-xl p-8 md:p-10 flex flex-col md:flex-row items-start md:items-center justify-between overflow-hidden relative">
                 <div className="max-w-xl relative z-10">
                   <h3 className="text-2xl font-bold mb-2">{t("about.card4_title")}</h3>
                   <p className="text-teal-100/70">{t("about.card4_desc")}</p>
                 </div>
-                <span className="material-symbols-outlined text-8xl text-primary-container/20 absolute right-10 top-1/2 -translate-y-1/2">vital_signs</span>
+                <span className="material-symbols-outlined icon-bento-3 text-primary-container/20 absolute -right-4 -bottom-4 md:right-10 md:top-1/2 md:-translate-y-1/2 md:bottom-auto">vital_signs</span>
               </div>
             </div>
           </div>
@@ -242,14 +242,10 @@ export default function AboutPage() {
               {/* 3-Column Info Layout */}
               <div className="grid grid-cols-1 lg:grid-cols-3 bg-white">
                 
-                {/* 1. Factory Image (Fallback until uploaded) */}
+                {/* 1. Factory Image */}
                 <div className="relative h-64 lg:h-auto border-b lg:border-b-0 lg:border-r border-slate-200 bg-teal-800 flex flex-col justify-center items-center overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-teal-900 to-slate-900 opacity-80"></div>
-                  <div className="relative z-10 text-center px-6">
-                    <span className="material-symbols-outlined text-white/50 text-6xl mb-4">factory</span>
-                    <h3 className="text-white font-bold tracking-tight text-xl mb-1">인성제약(주) 음성 공장</h3>
-                    <p className="text-teal-200 text-[13px] font-medium tracking-wide">자연과 건강을 생각하는 기업</p>
-                  </div>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/images/factory.png" alt="인성제약(주) 음성 공장" className="w-full h-full object-cover" />
                 </div>
 
                 {/* 2. Specs Table */}
