@@ -210,7 +210,7 @@ export default function ResearchPage() {
             <div className="group">
               <div className="aspect-video rounded-xl overflow-hidden mb-6">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="luxury health product packaging with minimalist design and gold accents on a clean white surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB96i1ZlOD3IQwxLgFZlmHIUX8iVkVKfjmom-tzjszBE_yVqkV-YxQs-3bttkmzE9Q9AD2i7NJXgY08jTklWWurB_zYsKqRBOMQ6fCxwljpxDC294Pxf4sPbVSMaM8-mjK4WGjDsMh8EH6SQds7SDk2-sVQIIXype0rfBnWDgzp81Bbdvtbp51nemDl_yRb-NfycaAdo-cUqKKRtbO15mLk6IvKBawsUzjD5SLz9oRpiFGNtSB9K6Ya8bu0612HG-YvE4-b3OdIVIQl"/>
+                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Premium anti-aging Samsandan gold pills in luxury box" src="/images/samsandan.jpg"/>
               </div>
               <h4 className="text-xl font-headline font-bold text-on-surface mb-2">{t("research.inf3_t")}</h4>
               <p className="text-sm text-on-surface-variant mb-4">{t("research.inf3_d")}</p>
