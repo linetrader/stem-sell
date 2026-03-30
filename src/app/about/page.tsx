@@ -250,26 +250,26 @@ export default function AboutPage() {
 
                 {/* 2. Specs Table */}
                 <div className="flex flex-col border-b lg:border-b-0 lg:border-r border-slate-200 py-6 px-4 bg-slate-50/50">
-                  <div className="grid grid-cols-[80px_1fr] md:grid-cols-[100px_1fr] flex-1 gap-y-1.5">
+                  <div className="grid grid-cols-[100px_1fr] md:grid-cols-[120px_1fr] flex-1 gap-y-1.5 min-w-0">
                     {/* Row 1 */}
-                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[13px] text-center tracking-widest leading-none">{t("about.part_est_label")}</div>
-                    <div className="bg-white flex items-center px-4 py-2.5 text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-none">{t("about.part_est_val")}</div>
+                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[11px] sm:text-[13px] text-center tracking-wider leading-snug">{t("about.part_est_label")}</div>
+                    <div className="bg-white flex items-center px-4 py-2.5 text-[13px] sm:text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-snug break-words min-w-0">{t("about.part_est_val")}</div>
                     
                     {/* Row 2 */}
-                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[13px] text-center tracking-widest leading-none">{t("about.part_emp_label")}</div>
-                    <div className="bg-white flex items-center px-4 py-2.5 text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-none">{t("about.part_emp_val")}</div>
+                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[11px] sm:text-[13px] text-center tracking-wider leading-snug">{t("about.part_emp_label")}</div>
+                    <div className="bg-white flex items-center px-4 py-2.5 text-[13px] sm:text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-snug break-words min-w-0">{t("about.part_emp_val")}</div>
                     
                     {/* Row 3 */}
-                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[13px] text-center tracking-widest leading-none">{t("about.part_biz_label")}</div>
-                    <div className="bg-white flex items-center px-4 py-2.5 text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-none">{t("about.part_biz_val")}</div>
+                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[11px] sm:text-[13px] text-center tracking-wider leading-snug">{t("about.part_biz_label")}</div>
+                    <div className="bg-white flex items-center px-4 py-2.5 text-[13px] sm:text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-snug break-words min-w-0">{t("about.part_biz_val")}</div>
                     
                     {/* Row 4 */}
-                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[13px] text-center tracking-widest leading-none">{t("about.part_cert_label")}</div>
-                    <div className="bg-white flex items-center px-4 py-2.5 text-[13px] font-medium text-slate-800 border border-slate-100 shadow-sm leading-none">{t("about.part_cert_val")}</div>
+                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[11px] sm:text-[13px] text-center tracking-wider leading-snug">{t("about.part_cert_label")}</div>
+                    <div className="bg-white flex items-center px-4 py-2.5 text-[12px] sm:text-[13px] font-medium text-slate-800 border border-slate-100 shadow-sm leading-snug break-words min-w-0">{t("about.part_cert_val")}</div>
                     
                     {/* Row 5 */}
-                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[13px] text-center tracking-widest leading-none">{t("about.part_url_label")}</div>
-                    <div className="bg-white flex items-center px-4 py-2.5 text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-none"><a href="http://www.ispharm.co.kr" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t("about.part_url_val")}</a></div>
+                    <div className="bg-teal-700 text-white font-bold flex items-center justify-center py-2.5 px-2 text-[11px] sm:text-[13px] text-center tracking-wider leading-snug">{t("about.part_url_label")}</div>
+                    <div className="bg-white flex items-center px-4 py-2.5 text-[13px] sm:text-sm font-medium text-slate-800 border border-slate-100 shadow-sm leading-snug break-words min-w-0 overflow-hidden"><a href="http://www.ispharm.co.kr" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors block w-full truncate">{t("about.part_url_val")}</a></div>
                   </div>
                 </div>
 
@@ -304,63 +304,9 @@ export default function AboutPage() {
               
               {/* Logos Grid */}
               <div className="p-4 sm:p-8 border-t border-slate-200">
-                <div className="grid grid-cols-2 lg:grid-cols-4 border-t border-l border-slate-300">
-                  {/* Row 1 */}
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-3 hover:bg-slate-50 transition-colors">
-                    <span className="font-extrabold text-[22px] text-slate-800 tracking-tighter">KGC 인삼공사</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-3 hover:bg-slate-50 transition-colors">
-                    <span className="font-black text-2xl text-blue-700 italic">CJ<span className="ml-1 text-slate-800 text-sm">WELLCARE</span></span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-3 hover:bg-slate-50 transition-colors">
-                    <span className="font-medium text-2xl text-green-700 italic font-serif">Pulmuone</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center gap-1.5 p-3 hover:bg-slate-50 transition-colors">
-                    <span className="material-symbols-outlined text-yellow-500 font-bold">eco</span>
-                    <span className="font-black text-xl text-green-600 tracking-tight">농협홍삼</span>
-                  </div>
-                  
-                  {/* Row 2 */}
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-2 hover:bg-slate-50 transition-colors gap-2">
-                    <span className="font-bold text-[17px] tracking-[0.2em] text-slate-800">COSMAX</span>
-                    <span className="text-red-500 material-symbols-outlined text-[15px]">settings_input_component</span>
-                    <span className="font-bold text-[17px] tracking-widest text-slate-600">NBT</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-2 hover:bg-slate-50 transition-colors gap-2">
-                    <span className="font-bold text-[17px] tracking-[0.2em] text-slate-800">COSMAX</span>
-                    <span className="text-red-500 material-symbols-outlined text-[15px]">settings_input_component</span>
-                    <span className="font-bold text-[17px] tracking-widest text-slate-600">BIO</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-3 hover:bg-slate-50 transition-colors">
-                    <span className="font-bold text-2xl text-slate-700"><span className="text-rose-600 font-extrabold mr-1">LG</span>생활건강</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center gap-2 p-3 hover:bg-slate-50 transition-colors">
-                    <span className="text-orange-500 font-bold text-lg leading-none" style={{transform: "scaleX(1.5)"}}>XX</span>
-                    <div className="flex flex-col items-start leading-[1.1]">
-                      <span className="font-bold text-lg text-slate-700">Kwangdong</span>
-                      <span className="font-bold text-[11px] text-slate-500 self-end">광동제약</span>
-                    </div>
-                  </div>
-
-                  {/* Row 3 */}
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center gap-[2px] p-3 hover:bg-slate-50 transition-colors">
-                    <span className="font-black text-3xl text-red-500">h</span><span className="font-black text-3xl text-yellow-400">y</span><span className="font-black text-3xl mr-1 text-teal-400"></span>
-                    <span className="text-[17px] text-slate-600 font-bold ml-1">에치와이</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center gap-2 p-3 hover:bg-slate-50 transition-colors">
-                     <div className="flex flex-col leading-none font-black text-2xl text-slate-900 tracking-tighter">
-                        <span>KY<span className="text-orange-500">O</span></span>
-                        <span>W<span className="text-orange-500">O</span>N</span>
-                     </div>
-                     <span className="text-xl text-slate-800 font-extrabold ml-1">교원</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex flex-col items-center justify-center p-3 hover:bg-slate-50 transition-colors relative overflow-hidden">
-                    <span className="font-black text-2xl text-blue-600 tracking-tighter z-10">Dongwon</span>
-                    <span className="font-bold text-[11px] text-blue-500 z-10">동원F&B</span>
-                  </div>
-                  <div className="h-24 border-b border-r border-slate-300 flex items-center justify-center p-3 hover:bg-slate-50 transition-colors group">
-                    <span className="font-black text-2xl text-slate-800 tracking-tighter">영진약품</span>
-                  </div>
+                <div className="w-full flex justify-center items-center">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/images/partners_grid.png" alt="주요 고객사 로고" className="w-full h-auto max-w-5xl object-contain border border-slate-200 shadow-sm" />
                 </div>
               </div>
 
