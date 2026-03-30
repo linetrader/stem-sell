@@ -48,8 +48,8 @@ const translations = {
       agreement: "계정을 생성함으로써 당사의 윤리 강령 및 전문가 행동 지침에 동의하는 것으로 간주됩니다."
     },
     footer: {
-      brand: "RevaCell Bio",
-      copyright: "© 2024 RevaCell Bio. 생명을 위한 정밀 공학. (Precision Engineering for Life)",
+      brand: "StemLink",
+      copyright: "© 2024 StemLink. 생명을 위한 정밀 공학. (Precision Engineering for Life)",
       privacy: "개인정보 처리방침",
       terms: "이용약관",
       ethics: "윤리 강령",
@@ -58,7 +58,7 @@ const translations = {
   },
   en: {
     auth: {
-      login_title: "RevaCell Bio Login",
+      login_title: "StemLink Login",
       login_sub: "Access your personalized stem cell therapy protocols.",
       email_label: "Email or Research ID",
       email_placeholder: "name@institution.com",
@@ -100,8 +100,8 @@ const translations = {
       agreement: "By creating an account, you agree to our Ethics Framework and Professional Conduct guidelines."
     },
     footer: {
-      brand: "RevaCell Bio",
-      copyright: "© 2024 RevaCell Bio. Precision Engineering for Life.",
+      brand: "StemLink",
+      copyright: "© 2024 StemLink. Precision Engineering for Life.",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
       ethics: "Ethics Framework",
@@ -110,7 +110,7 @@ const translations = {
   },
   ja: {
     auth: {
-      login_title: "RevaCell Bio ログイン",
+      login_title: "StemLink ログイン",
       login_sub: "パーソナライズされた幹細胞治療プロトコルにアクセスします。",
       email_label: "メールまたは研究ID",
       email_placeholder: "name@institution.com",
@@ -152,8 +152,8 @@ const translations = {
       agreement: "アカウントを作成することにより、当社の倫理規範および専門家行動指針に同意したものとみなされます。"
     },
     footer: {
-      brand: "RevaCell Bio",
-      copyright: "© 2024 RevaCell Bio. 生命のための精密工学。",
+      brand: "StemLink",
+      copyright: "© 2024 StemLink. 生命のための精密工学。",
       privacy: "プライバシーポリシー",
       terms: "利用規約",
       ethics: "倫理綱領",
@@ -162,7 +162,7 @@ const translations = {
   },
   zh: {
     auth: {
-      login_title: "RevaCell Bio 登录",
+      login_title: "StemLink 登录",
       login_sub: "访问您的个性化干细胞治疗协议。",
       email_label: "邮箱或研究ID",
       email_placeholder: "name@institution.com",
@@ -204,8 +204,8 @@ const translations = {
       agreement: "创建帐户即表示您同意我们的道德准则和专业行为准则。"
     },
     footer: {
-      brand: "RevaCell Bio",
-      copyright: "© 2024 RevaCell Bio. 生命的精密工程。",
+      brand: "StemLink",
+      copyright: "© 2024 StemLink. 生命的精密工程。",
       privacy: "隐私政策",
       terms: "服务条款",
       ethics: "伦理准则",
@@ -214,7 +214,7 @@ const translations = {
   },
   vi: {
     auth: {
-      login_title: "Đăng nhập RevaCell Bio",
+      login_title: "Đăng nhập StemLink",
       login_sub: "Truy cập phác đồ liệu pháp tế bào gốc được cá nhân hóa của bạn.",
       email_label: "Email hoặc ID nghiên cứu",
       email_placeholder: "name@institution.com",
@@ -256,8 +256,8 @@ const translations = {
       agreement: "Bằng cách tạo tài khoản, bạn đồng ý với Khung Đạo đức và Quy tắc Ứng xử Chuyên nghiệp của chúng tôi."
     },
     footer: {
-      brand: "RevaCell Bio",
-      copyright: "© 2024 RevaCell Bio. Kỹ thuật Chính xác cho Cuộc sống.",
+      brand: "StemLink",
+      copyright: "© 2024 StemLink. Kỹ thuật Chính xác cho Cuộc sống.",
       privacy: "Chính sách Bảo mật",
       terms: "Điều khoản Dịch vụ",
       ethics: "Khung Đạo đức",

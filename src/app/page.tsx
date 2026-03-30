@@ -69,14 +69,14 @@ export default function Page() {
         </section>
 
         <section className="py-32 bg-on-background text-white overflow-hidden">
-          <div className="container mx-auto px-12">
+          <div className="container mx-auto px-4 md:px-12">
             <div className="mb-20">
               <h2 className="font-headline text-5xl font-bold tracking-tighter mb-6">{t("home.core_tech_title")}</h2>
               <p className="text-surface-variant text-xl max-w-3xl">{t("home.core_tech_sub")}</p>
             </div>
             
             <div className="grid grid-cols-1 gap-12">
-              <div className="bg-surface-container-highest/10 p-10 rounded-xl backdrop-blur-sm border border-white/5 w-full">
+              <div className="bg-surface-container-highest/10 p-5 md:p-10 rounded-xl backdrop-blur-sm border border-white/5 w-full">
                 <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
                   <span className="p-2 bg-primary-container rounded-lg"><span className="material-symbols-outlined text-on-primary-container">science</span></span>
                   {t("home.comparison_title")}
@@ -99,7 +99,7 @@ export default function Page() {
                       </li>
                     </ul>
                   </div>
-                  <div className="space-y-4 p-6 bg-primary-container/10 rounded-lg border border-primary-container/20">
+                  <div className="space-y-4 p-5 md:p-6 bg-primary-container/10 rounded-xl border border-primary-container/20">
                     <p className="font-label text-xs uppercase tracking-widest text-primary-container">{t("home.reva_innov")}</p>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-2 text-primary-container font-bold">

@@ -51,7 +51,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-2xl shadow-xl shadow-teal-950/5">
       <div className="flex justify-between items-center px-6 md:px-12 h-24 max-w-[1440px] mx-auto relative">
         <div className="text-2xl font-black text-teal-900 dark:text-white uppercase tracking-widest font-headline">
-          <Link href="/">RevaCell Bio</Link>
+          <Link href="/">StemLink</Link>
         </div>
         
         <div className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center space-x-8">
@@ -59,6 +59,7 @@ export default function Navbar() {
           <Link className={isActive("/about") ? activeClasses : inactiveClasses} href="/about">{t("nav.about")}</Link>
           <Link className={isActive("/research") ? activeClasses : inactiveClasses} href="/research">{t("nav.research")}</Link>
           <Link className={isActive("/global-strategy") ? activeClasses : inactiveClasses} href="/global-strategy">{t("nav.globalStrategy")}</Link>
+          <Link className={isActive("/dashboard") ? activeClasses : inactiveClasses} href="/dashboard">DASHBOARD</Link>
           <Link className={isActive("/rwa-token") ? activeClasses : inactiveClasses} href="/rwa-token">RWA TOKEN</Link>
           <Link className={isActive("/contact") ? activeClasses : inactiveClasses} href="/contact">{t("nav.contact")}</Link>
         </div>
@@ -116,6 +117,7 @@ export default function Navbar() {
           <Link onClick={() => setMobileMenuOpen(false)} className={isActive("/about") ? activeClasses : inactiveClasses} href="/about">{t("nav.about")}</Link>
           <Link onClick={() => setMobileMenuOpen(false)} className={isActive("/research") ? activeClasses : inactiveClasses} href="/research">{t("nav.research")}</Link>
           <Link onClick={() => setMobileMenuOpen(false)} className={isActive("/global-strategy") ? activeClasses : inactiveClasses} href="/global-strategy">{t("nav.globalStrategy")}</Link>
+          <Link onClick={() => setMobileMenuOpen(false)} className={isActive("/dashboard") ? activeClasses : inactiveClasses} href="/dashboard">DASHBOARD</Link>
           <Link onClick={() => setMobileMenuOpen(false)} className={isActive("/rwa-token") ? activeClasses : inactiveClasses} href="/rwa-token">RWA TOKEN</Link>
           <Link onClick={() => setMobileMenuOpen(false)} className={isActive("/contact") ? activeClasses : inactiveClasses} href="/contact">{t("nav.contact")}</Link>
         </div>

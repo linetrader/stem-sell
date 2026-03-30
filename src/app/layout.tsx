@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "RevaCell Bio | Precision Architectural Biotechnology",
+  title: "StemLink | Precision Architectural Biotechnology",
 };
 
 export default function RootLayout({

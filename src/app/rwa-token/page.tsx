@@ -236,8 +236,8 @@ export default function RwaTokenPage() {
       <footer className="w-full border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 tonal-shift bg-slate-100 dark:bg-slate-900 flat no-shadows">
         <div className="flex flex-col md:flex-row justify-between items-center px-12 py-10 w-full max-w-screen-2xl mx-auto">
           <div className="mb-8 md:mb-0">
-            <div className="font-space-grotesk font-black text-teal-900 dark:text-teal-100 text-xl uppercase mb-2">RevaCell Bio</div>
-            <div className="font-manrope text-xs tracking-wide text-slate-500">© 2024 RevaCell Bio. Precision Engineering for Real World Assets.</div>
+            <div className="font-space-grotesk font-black text-teal-900 dark:text-teal-100 text-xl uppercase mb-2">StemLink</div>
+            <div className="font-manrope text-xs tracking-wide text-slate-500">© 2024 StemLink. Precision Engineering for Real World Assets.</div>
           </div>
           <div className="flex flex-wrap justify-center gap-8">
             <Link className="text-slate-500 hover:text-teal-500 transition-all hover:underline decoration-teal-500/30 font-manrope text-xs tracking-wide" href="#">Whitepaper</Link>
